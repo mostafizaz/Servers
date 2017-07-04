@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { ServersComponent } from './servers/servers.component';
 import { UsersComponent } from './users/users.component';
 import { ServerComponent } from './server/server.component';
+import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ServerComponent } from './server/server.component';
     HeaderComponent,
     ServersComponent,
     UsersComponent,
-    ServerComponent
+    ServerComponent,
+    ShoppingListComponent
   ],
   imports: [
     BrowserModule,
